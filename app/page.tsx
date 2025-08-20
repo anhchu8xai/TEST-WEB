@@ -12,9 +12,9 @@ export default function ProfilePage() {
           height={100}
           className="rounded-full border-4 border-zinc-200 dark:border-zinc-700 mr-6"
         />
-        <div className="flex flex-col justify-center">
-        </div>
+        <div className="flex flex-col justify-center" />
       </section>
+      
       {/* Summary section */}
       <section className="mb-10">
         <h3 className="text-xl font-semibold mb-3">Summary</h3>
@@ -23,42 +23,7 @@ export default function ProfilePage() {
         </p>
       </section>
 
-
-
-
-
-  {/* Work Experience section removed */}
-
-
-
-      <section className="mb-10">
-        <h3 className="text-xl font-semibold mb-3">Education</h3>
-        <div className="flex flex-col gap-6">
-          <div className="flex gap-4 items-start">
-            <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
-              {/* Placeholder for school logo */}
-              <span className="text-2xl text-zinc-400">🎓</span>
-            </div>
-            <div>
-              <div className="font-bold text-lg">Monash University</div>
-              <div className="text-zinc-600 dark:text-zinc-400">Bachelor of Commerce (B.Com.), Accounting and Finance</div>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">2006 - 2009</div>
-              <div className="text-sm"><span className="font-semibold">Skills:</span> Finance · High Pressure · Financial Analysis · Data Analysis · Crypto</div>
-            </div>
-          </div>
-          <div className="border-t border-zinc-200 dark:border-zinc-700 my-2"></div>
-          <div className="flex gap-4 items-start">
-            <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
-              {/* Placeholder for school logo */}
-              <span className="text-2xl text-zinc-400">🎓</span>
-            </div>
-            <div>
-              <div className="font-bold text-lg">Le Hong Phong High school</div>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">1998 - 2001</div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Experience section */}
       <section className="mb-10">
         <h3 className="text-xl font-semibold mb-3">Experience</h3>
         <div className="flex flex-col gap-6">
@@ -94,34 +59,36 @@ export default function ProfilePage() {
           </div>
         </div>
       </section>
-        <section className="mb-10">
-          <h3 className="text-xl font-semibold mb-3">Education</h3>
-          <div className="flex flex-col gap-6">
-            <div className="flex gap-4 items-start">
-              <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
-                {/* Placeholder for school logo */}
-                <span className="text-2xl text-zinc-400">🎓</span>
-              </div>
-              <div>
-                <div className="font-bold text-lg">Monash University</div>
-                <div className="text-zinc-600 dark:text-zinc-400">Bachelor of Commerce (B.Com.), Accounting and Finance</div>
-                <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">2006 - 2009</div>
-                <div className="text-sm"><span className="font-semibold">Skills:</span> Finance · High Pressure · Financial Analysis · Data Analysis · Crypto</div>
-              </div>
+      
+      {/* Education section */}
+      <section className="mb-10">
+        <h3 className="text-xl font-semibold mb-3">Education</h3>
+        <div className="flex flex-col gap-6">
+          <div className="flex gap-4 items-start">
+            <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
+              {/* Placeholder for school logo */}
+              <span className="text-2xl text-zinc-400">🎓</span>
             </div>
-            <div className="border-t border-zinc-200 dark:border-zinc-700 my-2"></div>
-            <div className="flex gap-4 items-start">
-              <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
-                {/* Placeholder for school logo */}
-                <span className="text-2xl text-zinc-400">🎓</span>
-              </div>
-              <div>
-                <div className="font-bold text-lg">Le Hong Phong High school</div>
-                <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">1998 - 2001</div>
-              </div>
+            <div>
+              <div className="font-bold text-lg">Monash University</div>
+              <div className="text-zinc-600 dark:text-zinc-400">Bachelor of Commerce (B.Com.), Accounting and Finance</div>
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">2006 - 2009</div>
+              <div className="text-sm"><span className="font-semibold">Skills:</span> Finance · High Pressure · Financial Analysis · Data Analysis · Crypto</div>
             </div>
           </div>
-        </section>
+          <div className="border-t border-zinc-200 dark:border-zinc-700 my-2"></div>
+          <div className="flex gap-4 items-start">
+            <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
+              {/* Placeholder for school logo */}
+              <span className="text-2xl text-zinc-400">🎓</span>
+            </div>
+            <div>
+              <div className="font-bold text-lg">Le Hong Phong High school</div>
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">1998 - 2001</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   )
 }

@@ -13,8 +13,6 @@ export default function ProfilePage() {
           className="rounded-full border-4 border-zinc-200 dark:border-zinc-700 mr-6"
         />
         <div className="flex flex-col justify-center">
-          <h1 className="text-3xl font-bold mb-1">Harry Duong</h1>
-          <h2 className="text-lg font-semibold text-zinc-500 dark:text-zinc-300 mb-2">Entrepreneur</h2>
         </div>
       </section>
       {/* Summary section */}
@@ -29,13 +27,7 @@ export default function ProfilePage() {
 
 
 
-      <section className="mb-10">
-        <h3 className="text-xl font-semibold mb-3">Work Experience</h3>
-        <ul className="list-disc ml-6 text-zinc-600 dark:text-zinc-400">
-          <li>2012 - Present: Professional Poker Player</li>
-          <li>2018 - Present: Poker Coach, training and mentoring many students to achieve high results</li>
-        </ul>
-      </section>
+  {/* Work Experience section removed */}
 
 
 
@@ -102,6 +94,34 @@ export default function ProfilePage() {
           </div>
         </div>
       </section>
+        <section className="mb-10">
+          <h3 className="text-xl font-semibold mb-3">Education</h3>
+          <div className="flex flex-col gap-6">
+            <div className="flex gap-4 items-start">
+              <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
+                {/* Placeholder for school logo */}
+                <span className="text-2xl text-zinc-400">🎓</span>
+              </div>
+              <div>
+                <div className="font-bold text-lg">Monash University</div>
+                <div className="text-zinc-600 dark:text-zinc-400">Bachelor of Commerce (B.Com.), Accounting and Finance</div>
+                <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">2006 - 2009</div>
+                <div className="text-sm"><span className="font-semibold">Skills:</span> Finance · High Pressure · Financial Analysis · Data Analysis · Crypto</div>
+              </div>
+            </div>
+            <div className="border-t border-zinc-200 dark:border-zinc-700 my-2"></div>
+            <div className="flex gap-4 items-start">
+              <div className="w-14 h-14 bg-zinc-200 rounded-full flex-shrink-0 flex items-center justify-center">
+                {/* Placeholder for school logo */}
+                <span className="text-2xl text-zinc-400">🎓</span>
+              </div>
+              <div>
+                <div className="font-bold text-lg">Le Hong Phong High school</div>
+                <div className="text-zinc-500 dark:text-zinc-400 text-sm mb-1">1998 - 2001</div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
   )
 }
